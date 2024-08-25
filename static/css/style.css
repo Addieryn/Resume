@@ -1,0 +1,36 @@
+@include media-breakpoint-up(xs) { ... }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+
+@include media-breakpoint-up(xs) {
+    .some-class {
+      display: block;
+    }
+  }
+
+@include media-breakpoint-up(sm) {
+  .some-class {
+    display: block;
+  }
+}
+
+@include media-breakpoint-up(md) {
+    .some-class {
+      display: block;
+    }
+  }
+
+@include media-breakpoint-up(lg) {
+    .some-class {
+      display: block;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+  .some-class {
+    display: block;
+  }
+}
+  
